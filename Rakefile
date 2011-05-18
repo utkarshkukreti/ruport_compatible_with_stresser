@@ -1,6 +1,6 @@
 require "rake/rdoctask"
 require "rake/testtask"
-require "lib/ruport/version"
+require_relative "lib/ruport/version"
 
 begin
   require "rubygems"
